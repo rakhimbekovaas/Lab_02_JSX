@@ -13,7 +13,7 @@
 ## How to Run
 1. `npm install`
 2. `npm start`
-3. Open http://localhost:3000
+3. Open http://localhost:3001
 
 ## Features
 - React Fragments `<></>`
