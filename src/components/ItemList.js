@@ -4,7 +4,8 @@ function ItemList() {
   const items = [
     { id: 1, name: "Яблоко" },
     { id: 2, name: "Банан" },
-    { id: 3, name: "Вишня" }
+    { id: 3, name: "Вишня" },
+    { id: 4, name: "Апельсин" }   // ← новый элемент
   ];
 
   return (
