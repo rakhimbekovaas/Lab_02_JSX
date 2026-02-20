@@ -16,4 +16,4 @@ function FragmentLayout() {
   );
 }
 
-export default FragmentLayout;
+export default FragmentLayout;// Добавлен комментарий о фрагментах
