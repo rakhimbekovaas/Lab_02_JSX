@@ -1,24 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import FragmentLayout from './components/FragmentLayout';  //注意: ./components/ а не components/
+import ItemList from './components/ItemList';
+import CombinedSection from './components/CombinedSection';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <h1>Lab 2.1</h1>
+      <FragmentLayout />
+      <ItemList />
+      <CombinedSection />
+    </>
   );
 }
 
